@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+
+
+body{
+ background: #090d00;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(255,255,225,.5);
+  width: 700px;
+  	font: 700 3em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .5em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 2px rgba(255,255,225,.5);
+}
+
+header{
+ margin-top: 0px;
+ font-family: Cuprum, Arial, Helvetica, sans-serif;
+ color: #090d00;
+
+photo-slider {
+
+}
+
+photo-slider::after {
+  display: block;
+  content: '';
+  padding-top: 75%;
+
+}
+
+photo-slider img {
+  position: absolute;
+  height: 100%;
+}
+photo-slider {
+  justify-content: center;
+}
+photo-slider {
+  width: 100%;
+  contain: content;
+}  
+
+}
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+ background: #090d00;
+}
+.fixed-top {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+}
+.dws-menu > ul li{
+ position: relative;
+ border-right: 1px solid #090d00;
+ background: #090d00;
+ color: #090d00;
+}
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #090d00;
+   background: #090d00;
+ color: #090d00;
+  position: sticky;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #090d00;
+   background: #090d00;
+ color: #090d00;
+}
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+   background: #090d00;
+ color: #090d00;
+}
+.dws-menu > ul li a{
+ display: block;
+ background: #090d00; 
+ background: #090d00;
+ background: #090d00;
+ background: #090d00;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#090d00', endColorstr='#090d00',GradientType=0 ); 
+
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #474a40;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+ background: #474a40;
+ color: #090d00;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#090d00', endColorstr='#090d00',GradientType=0 ); 
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.5s ease;
+}
+
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+.dws-menu li > ul li{
+ border: 1px solid #090d00;
+}
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #090d00;
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.dws-menu li:hover > ul{
+ display: block;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(255,255,225,.5);
+  width: 700px;
+  	font: 700 2em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .5em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 2px rgba(255,255,225,.5);
+}
+
+.flexbox1 {
+  display: flex;
+  height: 800px;
+  width: 700px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #090d00;
+      margin-left: auto;
+    margin-right: auto;
+
+}
+
+.item {
+  background-color: #090d00;
+  box-sizing: border-box;
+}
